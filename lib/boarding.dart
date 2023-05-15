@@ -20,9 +20,9 @@ class boarding extends StatelessWidget {
               // politekniknegerisubangyQB (15:244)
               margin: EdgeInsets.fromLTRB(0, 0, 0, 47),
               child: Text('Bank Sampah',
-                  style: GoogleFonts.yaldevi(
-                    fontSize: 24,
-                    fontWeight: FontWeight.w500,
+                  style: GoogleFonts.ubuntu(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
                   )),
             ),
             Container(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:trash_bank/utama.dart';
+import 'package:trash_bank/buttonNav.dart';
+
 
 class login extends StatefulWidget {
   const login({super.key});
@@ -19,7 +20,7 @@ class _loginState extends State<login> {
       ScaffoldMessenger.of(context)
           .showSnackBar(SnackBar(content: Text('Berhasil')));
       Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context) => Halamanutama()));
+          .push(MaterialPageRoute(builder: (context) => HalamanUtama()));
     }
   }
 
@@ -139,7 +140,7 @@ class _loginState extends State<login> {
                                         width: 40,
                                       ),
                                       Text(
-                                        'Forgot Password ?',
+                                        'Belum daftar ?',
                                         textAlign: TextAlign.center,
                                         style: TextStyle(color: Colors.blue),
                                       ),

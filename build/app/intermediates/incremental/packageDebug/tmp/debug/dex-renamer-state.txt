@@ -1,0 +1,4 @@
+#Mon May 15 15:10:26 ICT 2023
+base.0=D\:\\Tugas Polsub\\SEMESTER 6\\Proyek Akhir\\coding\\trash_bank\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
